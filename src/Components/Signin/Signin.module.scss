@@ -1,0 +1,19 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 70px;
+
+    &__div{
+        display: flex;
+        flex-direction: column;
+    }
+    &__a{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
