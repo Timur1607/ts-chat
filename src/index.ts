@@ -16,7 +16,7 @@ const pool = mysql.createPool({
 });
 
 // Тестовый запрос к БД
-app.get('/api/users', async (req, res) => {
+app.get('/api/users', async (res:any) => {
   try {
     const [rows] = await pool.query('SELECT * FROM users LIMIT 5');
     res.json(rows);
