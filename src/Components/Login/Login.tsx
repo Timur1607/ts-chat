@@ -13,7 +13,7 @@ export default function Login(){
                 <input type="password" />
             </div>
             <button type="submit">log in</button>
-            <a className={s.form__a} onClick={()=> navigate('/')}>don't have an account? create one</a>
+            <a className={s.form__a} onClick={()=> navigate('/ts-chat')}>don't have an account? create one</a>
         </form>
     )
 }

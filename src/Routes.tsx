@@ -4,7 +4,7 @@ import Signin from "./Components/Signin/Signin";
 import Login from "./Components/Login/Login";
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/ts-chat',
         element: <Layout/>,
         children: [
             {
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
                 element:<Signin/>,
             },
             {
-                path: 'Login',
+                path: '/ts-chat/Login',
                 element:<Login/>,
             },
         ]

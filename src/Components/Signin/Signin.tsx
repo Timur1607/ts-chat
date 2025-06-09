@@ -54,7 +54,7 @@ export default function Signin(){
                 <input ref={passwordRef} type="password" autoComplete='current-password' name="password" required/>
             </div>
             <input type="submit" value={'Sign in'}/>
-            <a className={s.form__a} onClick={()=> navigate('/Login')}>have an account? login</a>
+            <a className={s.form__a} onClick={()=> navigate('/ts-chat/Login')}>have an account? login</a>
         </form>
     )
 }
